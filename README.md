@@ -1,6 +1,6 @@
 # SeamlessTex
 This repository is the implementation of "Seamless Texture Optimization for RGB-D Reconstruction". 
-> Yanping Fu, Qingan Yan, Jie Liao, Huajian Zhou, Jin Tang, Chunxia Xiao. <i>Seamless Texture Optimization for RGB-D Reconstruction</i>, IEEE Transactions on Visualization and Computer Graphics, DOI:10.1109/TVCG.2021.3134105.
+> Yanping Fu, Qingan Yan, Jie Liao, Huajian Zhou, Jin Tang, Chunxia Xiao. <i>Seamless Texture Optimization for RGB-D Reconstruction</i>. IEEE Transactions on Visualization and Computer Graphics, DOI:10.1109/TVCG.2021.3134105.
 
 
 
