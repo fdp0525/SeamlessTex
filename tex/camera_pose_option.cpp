@@ -396,7 +396,7 @@ bool camera_pose_option_with_detail(std::vector<TextureView> texture_views, int 
                     //处理细节图
                     float  curdetail = getInterColorFromGrayImg(cur_detailimg, v_0, u_0);
                     float  adjdetail = getInterColorFromGrayImg(adj_detail_img, v_1, u_1);
-                    float  t_r = curdetail - adjdetail;
+                    float  t_r = (curdetail - adjdetail)*255.0f;
 //                    std::cout<<"-c:"<<curdetail<<" a:"<<adjdetail<<" v1:"<<v_1<<" U1:"<<u_1<<std::endl;
 //                    std::cout<<t_r<<std::endl;
 
@@ -539,7 +539,7 @@ bool camera_pose_option_with_detail(std::vector<TextureView> texture_views, int 
                     //处理细节图
                     float  curdetail = getInterColorFromGrayImg(cur_detailimg, v_0, u_0);
                     float  adjdetail = getInterColorFromGrayImg(adj_detail_img, v_1, u_1);
-                    float  t_r = curdetail - adjdetail;
+                    float  t_r = (curdetail - adjdetail)*255.0f;
 //                    std::cout<<"-c:"<<curdetail<<" a:"<<adjdetail<<" v1:"<<v_1<<" U1:"<<u_1<<std::endl;
 //                    std::cout<<t_r<<std::endl;
 
